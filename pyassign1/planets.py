@@ -26,8 +26,8 @@ Saturn = turtle.Turtle()
 
 planets = [Mercury, Venus, Earth, Mars, Jupiter, Saturn]
 colors = ['purple', 'green', 'black', 'yellow', 'orange', 'blue']
-ps = [300, 500, 700, 900, 1200, 1500]      # ps是行星轨道的焦准距的集合
-es = [0.11, 0.12, 0.13, 0.14, 0.15, 0.16]  # es是行星轨道的离心率的集合
+ps = [300, 500, 700, 900, 1200, 1500]      # ps是行星轨道的焦准距
+es = [0.11, 0.12, 0.13, 0.14, 0.15, 0.16]  # es是行星轨道的离心率
 shapesizes = [0.2, 0.4, 0.6, 0.8, 1.0, 1.2]
 speeds = [5, 20, 35, 40, 40, 35]
 

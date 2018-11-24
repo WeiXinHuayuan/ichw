@@ -72,7 +72,7 @@ def textB():
     json = '{ "from" : "2.5 United States Dollars", "to" : "2.1589225 Euros", "success" : true, "error" : "" }'
     assert('2.5 United States Dollars' == get_from(json))
     assert('2.1589225 Euros' == get_to(json))
-    assert(has_error(json) is False)
+    assert(has_error(json) is True)
 
 
 # Part C: Currency Query

@@ -80,7 +80,8 @@ def textB():
 def currency_response(currency_from, currency_to, amount_from):
     """Return a JSON string that is a response to a currency query"""
     from urllib.request import urlopen
-    doc = urlopen('http://cs1110.cs.cornell.edu/2016fa/a1server.php?from={0}&to={1}&amt={2}'.format(currency_from, currency_to, amount_from))
+    doc = urlopen('http://cs1110.cs.cornell.edu/2016fa/a1server.php?from={0}&to={1}&amt={2}'.format \
+                  (currency_from, currency_to, amount_from))
     docstr = doc.read()
     doc.close()
     jstr = docstr.decode('ascii')

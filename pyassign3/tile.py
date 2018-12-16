@@ -10,7 +10,6 @@ __email__  = "1800011764@pku.edu.cn"
 
 import turtle
 
-
 def can_pave(m, n, a, b, x, y, wall):
     """check the wall whether can be paved
     return True if it can or return False
@@ -129,6 +128,7 @@ def visulize(m, n, ans):
             grid.goto((j+0.55-m/2)*lth, (i+0.35-n/2)*lth)
             grid.pendown()
             grid.write(i*m+j, align='center', font=('Arial', int(lth//5), 'normal'))
+     turtle.done()
 
 
 def main():

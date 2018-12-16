@@ -127,8 +127,8 @@ def visulize(m, n, ans):
             grid.penup()
             grid.goto((j+0.55-m/2)*lth, (i+0.35-n/2)*lth)
             grid.pendown()
-            grid.write(i*m+j, align='center', font=('Arial', int(lth//5), 'normal'))
-     turtle.done()
+            grid.write(i*m+j, align='center', font=('Arial', int(lth//5), 'normal')
+    turtle.done()
 
 
 def main():
